@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handling Multimedia Elements in HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        video, audio {
+            display: block;
+            margin-top: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Handling Multimedia Elements in HTML</h1>
+
+
+    <div class="section">
+        <h2>Image Example</h2>
+        <p>Below is an example of an image being displayed on the webpage:</p>
+        <img src="https://via.placeholder.com/500x300" alt="Sample Image">
+    </div>
+
+
+    <div class="section">
+        <h2>Video Example</h2>
+        <p>Here is an example of a video embedded on the page:</p>
+        <video width="600" controls>
+            <source src="Video.mp4">
+        
+            Your browser does not support the video tag.
+        </video>
+        <p>This video can be controlled with play, pause, and volume buttons.</p>
+    </div>
+
+
+    <div class="section">
+        <h2>Audio Example</h2>
+        <p>Here is an example of an audio file being played on the page:</p>
+        <audio controls>
+            <source src="Music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>The above audio player has controls like play, pause, and volume adjustment.</p>
+    </div>
+
+
+    <div class="section">
+        <h2>Embedded Another website</h2>
+        <p>Here is an example of embedding a walchandsangli website:</p>
+        <iframe width="600" height="340" src="https://www.walchandsangli.ac.in/" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
